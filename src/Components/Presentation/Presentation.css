@@ -1,0 +1,41 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primaryColor: #0A121E;
+    --secondaryColor: #132537;
+    --thirdColor: #45646B; 
+    --fourthColor: #91B4B9; 
+    
+    --animationColor : #21252C;
+}
+
+.Animation {
+    display: block; 
+    width: 100%;  
+}
+
+.profile {
+    background-color: var(--animationColor);  
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    align-items: center;
+    color: white;
+}
+
+.profile img {
+    width: 40%;
+}
+
+.containerProfile {    
+    *line-height: 0;
+}
+
+
+
