@@ -1,41 +1,63 @@
-
-
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 :root {
-    --primaryColor: #0A121E;
-    --secondaryColor: #132537;
-    --thirdColor: #45646B; 
-    --fourthColor: #91B4B9; 
-    
-    --animationColor : #21252C;
+  --primaryColor: #0a121e;
+  --secondaryColor: #132537;
+  --thirdColor: #45646b;
+  --fourthColor: #91b4b9;
+
+  --animationColor: #21252c;
 }
 
 .Animation {
-    display: block; 
-    width: 100%;  
+  padding-top: 150px;
+  display: block;
+  width: 100%;
+}
+
+span {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 28ch;
+  animation: typing 5s steps(28), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .profile {
-    background-color: var(--animationColor);  
-    display: flex;
-    flex-direction: column;
-    text-align: center; 
-    align-items: center;
-    color: white;
+  background-color: var(--animationColor);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 80px;
 }
-
+.profile h3 {
+  width: 70%;
+    margin: 15px 0;
+}
 .profile img {
-    width: 40%;
+  width: 40%;
 }
 
-.containerProfile {    
-    *line-height: 0;
+.profile p {
+  margin: 15px 0;
+  width: 70%;      
+  font-size: 12px;
 }
-
-
-
