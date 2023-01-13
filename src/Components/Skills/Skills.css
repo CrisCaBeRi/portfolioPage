@@ -1,20 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
-.card {
+:root {
+    --primaryColor: #0A121E;
+    --secondaryColor: #132537;
+    --thirdColor: #45646B; 
+    --fourthColor: #91B4B9;     
+}
+
+/* .cards {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-items: center;    
+}
+
+.card {  
     align-items: center;
     width: 70%;    
     background-color: white;
-    border-radius: 25px;
-    align-items: center;
-    margin-top: -50px;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 25px;    
     text-align: center;
     padding: 10px 25px;
-    filter: drop-shadow(0px 22px 16px rgba(0, 0, 0, 0.32));
-    
-    *margin: -50px auto ; /* activar este elemento en desktop  */ 
+    filter: drop-shadow(0px 22px 16px rgba(0, 0, 0, 0.32));  
+    margin: 20px 0; 
+}
+
+.card:nth-child(1){
+    margin-top: -50px;
 }
 
 .card img {
@@ -28,7 +43,10 @@
 .card p {
     margin: 10px 0;
 }
-
+.card ul {
+    margin: 0;
+    padding: 0;
+}
 .card li {
     list-style: none;
     margin: 5px 0;
@@ -39,5 +57,61 @@
 
 .skillsIcons img {
     width: 20%;
+} */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
 }
 
+.card-container {  
+    align-items: center;
+    width: 70%;    
+    background-color: white;
+    border-radius: 25px;    
+    text-align: center;
+    padding: 10px 25px;
+    filter: drop-shadow(0px 22px 16px rgba(0, 0, 0, 0.32));  
+    margin: 20px 0; 
+}
+
+.card-container:nth-child(1){
+    margin-top: -50px;
+}
+
+.card-container img {
+    width: 60%;
+    margin: 15px 0;
+}
+.card-container h3 {
+    margin: 10px 0;
+}
+
+.card-container p {
+    margin: 10px 0;
+}
+.card-container ul {
+    margin: 0;
+    padding: 0;
+}
+.card-container li {
+    list-style: none;
+    margin: 5px 0;
+}
+.card-container li:nth-child(1){
+    color: red;
+}
+
+.skillsIcons img {
+    width: 15%;
+    margin: 10px 5px;
+}
+
+.card {
+    border: none;
+    padding: 0;
+}
+.insideShow.card-body {
+    padding: 0;
+}

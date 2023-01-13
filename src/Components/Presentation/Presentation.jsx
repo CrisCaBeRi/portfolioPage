@@ -8,6 +8,7 @@ export const Presentation = () => {
         <img className="Animation" src={animation} alt="" />
 
         <div className="profile">
+          <h1>Reducir velocidad animación</h1>
           <span> Bievenido a mi portafolio </span>
           
           <h3>Mi nombre es Cristian Camilo Betancourt Rincon</h3>
