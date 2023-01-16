@@ -1,0 +1,67 @@
+import imageExample from "./Assets/WIB.PNG";
+
+export const ProjectsData = [
+  {
+    prItem: 1,
+    prImg: {imageExample},    
+    prTitle: "¿Wich one is better?",
+    prDescription: "La temática de la página tributo es sobre suspensiones de bicicleta, su tecnología, diseño y funcionamiento. Para ello, se han integrado diferentes apartados gráficos que permiten ver su diseño. Por otra parte se hace un recorrido específico por cada suspensión explicando cuáles son sus tecnologías ofrecidas y por último, se hace una comparativa de precios entre diferentes gamas de cada suspension. Adicionalmente, se ha diseñado un foro en el cual las personas podrán interactuar sobre sus experiencias usando cada suspensión.",
+    prTechnologies: ["html", "css"],
+    prDeploy: "https://html-web-tributo.vercel.app/",
+    prRepoitory: "https://github.com/CrisCaBeRi/HTML-WEB-tributo-.git",
+  },
+  {
+    prItem: 2,
+    prImg: {imageExample},
+    prTitle: "Z-Shop",
+    prDescription: "Ejercicio de corrección de estilo usando FLEXBOX/GRID.",
+    prTechnologies: ["html", "css"],
+    prDeploy: "https://criscaberi.github.io/Z-Shop/",
+    prRepoitory: "https://github.com/CrisCaBeRi/Z-Shop.git",
+  },
+  {
+    prItem: 3,
+    prImg: {imageExample},
+    prTitle: "SabujCha-T",
+    prDescription: "Maquetación responsive para página web de venta de té",
+    prTechnologies: ["html", "css"],
+    prDeploy: "https://criscaberi.github.io/SabujCha-T-/",
+    prRepoitory: "https://github.com/CrisCaBeRi/SabujCha-T-.git",
+  },
+  {
+    prItem: 4,
+    prImg: {imageExample},
+    prTitle: "Fundación Semillas",
+    prDescription: "Maquetación dashboard ficticio. La Fundación Semillas, que ofrece diplomados en sostenibilidad del medio ambiente, desea saber el estado de ánimo sus alumnos, además de querer suministrarles una herramienta de fácil manejo, donde puedan organizar las tareas diarias propuestas por la institución.",
+    prTechnologies: ["html", "css"],
+    prDeploy: "https://criscaberi.github.io/Semillas_emociones_Y_tareas/",
+    prRepoitory: "https://github.com/CrisCaBeRi/Semillas_emociones_Y_tareas.git",
+  },
+  {
+    prItem: 5,
+    prImg: {imageExample},
+    prTitle: "Tetris JS",
+    prDescription: "Video juego introductorio a JS." ,
+    prTechnologies: ["html", "css", "js"],    
+    prDeploy: "https://criscaberi.github.io/Programate_Academy_TETRIS/",
+    prRepoitory: "https://github.com/CrisCaBeRi/Programate_Academy_TETRIS.git",
+  },
+  {
+    prItem: 6,
+    prImg: {imageExample},
+    prTitle: "Dashboard Crypto",
+    prDescription: "Desarrollo forntend usando REACT y haciendo consumo de API sobre criptomonedas.",
+    prTechnologies: ["html", "css", "js", "react"],
+    prDeploy: "https://criscaberi.github.io/DashboardCrypto/",
+    prRepoitory: "https://github.com/CrisCaBeRi/DashboardCrypto.git",
+  },
+  {
+    prItem: 7,
+    prImg: {imageExample},
+    prTitle: "Angel's Makeup",
+    prDescription: "Proyecto de tienda virtual para cliente real utilizando REACT.",
+    prTechnologies: ["html", "css", "js", "react"],
+    prDeploy: "imagelink",
+    prRepoitory: "imagelink",
+  }  
+];

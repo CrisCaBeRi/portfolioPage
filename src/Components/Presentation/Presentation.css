@@ -9,7 +9,6 @@
   --secondaryColor: #132537;
   --thirdColor: #45646b;
   --fourthColor: #91b4b9;
-
   --animationColor: #21252c;
 }
 
@@ -47,6 +46,7 @@ span {
   align-items: center;
   color: white;
   padding-bottom: 80px;
+  margin-bottom: -60px;
 }
 .profile h3 {
   width: 70%;
