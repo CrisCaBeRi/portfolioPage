@@ -15,9 +15,6 @@ import css from "../Skills/Assets/card2/css-3.png";
 import react from "../Skills/Assets/card2/react.png";
 import js from "../Skills/Assets/card2/js.png";
 
-import github from "../Skills/Assets/card2/github-sign.png";
-import vercel from "./Assets/vercel.svg";
-
 import devLogo from "./Assets/Dev.png";
 
 export const ProjectCarosuel = () => {
@@ -34,13 +31,12 @@ export const ProjectCarosuel = () => {
         return (
           <div className="containerProjects">
             <Card className="cardProject" key={key.prItem}>
+              {/* solve problem with img print  */}
               <CardImg alt="Card image cap" src={item.prImg} />
-
               <CardBody>
                 <CardTitle tag="h5" style={{ textAlign: "center" }}>
                   {item.prTitle}
-                </CardTitle>
-
+                </CardTitle>            
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
                   <p>Teconolgias utilizadas:</p>
                   {item.prTechnologies.map((img) => {
@@ -54,31 +50,21 @@ export const ProjectCarosuel = () => {
                       return <img src={js} alt="" />;
                     }
                     return null;
-                  })}                  
+                  })}
                 </CardSubtitle>
 
-                <CardText>
+                <CardText className="projectDescription">
                   {item.prDescription}
                 </CardText>
-
-
                 <div className="navigationProject">
                   <div className="repository">
-                    <p>Repositorio</p>
-                    <a
-                      target="_blank"
-                      href={item.prRepoitory}
-                      rel="noreferrer"
-                    >
-                      <img src={github} alt="" />
+                    <a target="_blank" href={item.prRepoitory} rel="noreferrer">
+                      <p>Repositorio</p>
                     </a>
                   </div>
                   <div className="deploy">
-                    <p>Despliegue</p>
-                    <a target="_blank"
-                      href={item.prDeploy}
-                      rel="noreferrer">
-                      <img src={vercel} alt="" />
+                    <a target="_blank" href={item.prDeploy} rel="noreferrer">
+                      <p>Despliegue</p>
                     </a>
                   </div>
                 </div>

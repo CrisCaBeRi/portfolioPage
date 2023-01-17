@@ -25,8 +25,6 @@
     width: 100%;
     z-index: 1;
     background-color: white;
-
-
 }
 
 .logo { 
@@ -83,7 +81,7 @@
     }
 
     .Header-nav.isActive{        
-        height: 22vh;        
+        height: 25vh;        
         opacity: 1;
     }
 

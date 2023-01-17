@@ -65,3 +65,9 @@ hr {color: #0a121e;}
 .navigationProject img{
     width: 7vw;
 }
+
+.projectDescription {
+    overflow: scroll;
+    height: 15vh;
+
+}
