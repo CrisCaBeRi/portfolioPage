@@ -13,7 +13,7 @@
 }
 
 .Animation {
-  padding-top: 150px;
+ padding-top: 150px;
   display: block;
   width: 100%;
 }
@@ -24,7 +24,7 @@ span {
   white-space: nowrap;
   border-right: 4px solid;
   width: 28ch;
-  animation: typing 5s steps(28), blink 0.5s infinite step-end alternate;
+  animation: typing 5s steps(28), blink 0.5s infinite step-end alternate ;
   overflow: hidden;
 }
 @keyframes typing {
@@ -61,3 +61,19 @@ span {
   width: 70%;      
   font-size: 12px;
 }
+
+.downloadCv { 
+  width: 100px;
+  border-radius: 20px; 
+}
+
+.downloadCv a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+

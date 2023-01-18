@@ -22,7 +22,7 @@ export const Header = () => {
             width="16"
             height="16"
             fill="currentColor"
-            viewBox="0 0 14 14"
+            viewBox="0 0 20 20"
           >
             <path
               fill-rule="evenodd"
@@ -43,6 +43,11 @@ export const Header = () => {
             <li className="Header-li">
               <a href="#a">
                 <p> Especialidades </p>
+              </a>
+            </li>
+            <li className="Header-li">
+              <a href="#a">
+                <p> Proyectos </p>
               </a>
             </li>
 
