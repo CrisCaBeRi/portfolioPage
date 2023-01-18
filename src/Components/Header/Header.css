@@ -44,7 +44,7 @@
   margin: 0;
   font-size: 18px;
 }
-
+/* mobile */
 @media screen and (max-width: 678px) {
   .header {
     padding: 20px 40px;
@@ -60,7 +60,7 @@
     transition: all 0.5s ease;
   }
   .Header-nav.isActive {
-    height: 26vh;
+    height: 35vw;
     opacity: 1;
   }
   .Header-ul {
@@ -70,6 +70,9 @@
   }
   .Header-li {
     margin: 10px;
+  }
+  .Header-li p {
+    font-size: 3vw;
   }
   .logo {
     width: 30vw;
