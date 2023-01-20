@@ -80,28 +80,49 @@ span {
   font-size: 3vw;
 }
 
-@media screen and (min-width: 678px) {
-  .containerProfile {
-    margin: 0 10vw;
-  }
+@media screen and (min-width: 678px) {  
   span {
     font-size: 2vw;
   }
 
-  .profile{
-    width: 100%;
+  .profile {   
+    *position: fixed; 
     display: grid;
-    grid-template-columns: repeat(5, 15vw);
-    grid-template-rows: repeat(5, 15vw);
+
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;        
+  }    
+  .profile span {
+    grid-area: 1 / 4 / 2 / 8; /* posinitialrow/posinitialcolumn/posfinalrow/posfinalcolumn */
+    margin: auto;   
   }
-  .profile h3 {
-    font-size: 3vw;
+
+  .profile h3 {  
+    grid-area: 2 / 4 / 4 / 11;
+    font-size: 1.8vw;
+    margin: auto;   
   }
 
+  .profile img {
+    grid-area: 2 / 2 / 10 / 5 ;
+    width: 100%;   
+  }
 
+  .profile p {
+    grid-area: 4 / 5 / 8/ 11 ;
+    font-size: 1.5vw; 
+    margin: auto;   
+  }
 
-
-
-
-  
+  .downloadCv {
+    grid-area: 9 / 2 / 10 / 5;
+    margin: auto;    
+    width: 50%;        
+  }
+  .downloadCv h4 {
+    font-size: 1vw;
+    padding: 5px;
+  } 
 }
