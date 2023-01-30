@@ -21,7 +21,7 @@ export const ProjectCarosuel = () => {
 
   return (
     <>
-      <div className="backgroundTr">
+      <div className="backgroundTr" id="section-3">
         <h1>Trabajos recientes</h1>
         <img src={devLogo} alt="" />
       </div>

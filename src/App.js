@@ -10,14 +10,10 @@ import { Skills } from "./Components/Skills/Skills";
 function App() {
   return (
     <>    
-      <Header/> 
-
+      <Header /> 
       <Presentation/>
-
       <Skills/>
-
-      <ProjectCarosuel/>   
-
+      <ProjectCarosuel/> 
       <Contact/>
     </> 
   );

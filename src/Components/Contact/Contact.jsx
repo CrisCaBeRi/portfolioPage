@@ -8,7 +8,7 @@ import whatsapp from "./Assets/whatsapp.png";
 export default function Contact() {
   return (
     <>
-      <div className="titleContact">
+      <div className="titleContact" id="section-4">
         <h1>Contactáctame</h1>
       </div>
 

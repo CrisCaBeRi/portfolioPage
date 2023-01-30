@@ -35,24 +35,24 @@ export const Header = () => {
         <nav className={`Header-nav ${menu ? "isActive" : ""}`}>
           <ul className="Header-ul">
             <li className="Header-li">
-              <a href="#a">
+              <a href="#section-1">
                 <p> Perfil </p>
               </a>
             </li>
 
             <li className="Header-li">
-              <a href="#a">
+              <a href="#section-2">
                 <p> Especialidades </p>
               </a>
             </li>
             <li className="Header-li">
-              <a href="#a">
+              <a href="#section-3">
                 <p> Proyectos </p>
               </a>
             </li>
 
             <li className="Header-li">
-              <a href="#a">
+              <a href="#section-4">
                 <p> Contacto </p>
               </a>
             </li>

@@ -5,7 +5,7 @@ import SkillsDev from "./SkillsDev";
 
 export const Skills = () => {
   return (
-    <div className="cards">
+    <div className="cards" id="section-2">
       <SkillsDesign />
       <SkillsDev />
       <SkillsComunication />

@@ -9,7 +9,7 @@ export const Presentation = () => {
     <>
       <img className="Animation" src={animation} alt="" />   
       
-      <div className="profile">
+      <div className="profile" id="section-1">
         <span> Bievenido a mi portafolio! </span>
 
         <h3>Mi nombre es Cristian Camilo Betancourt Rincon</h3>
