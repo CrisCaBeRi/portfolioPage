@@ -14,19 +14,19 @@ export default function Contact() {
 
       <div className="backgroundContact">
         <hr />
-        <a href="https://github.com/CrisCaBeRi" target="_blank">
+        <a href="https://github.com/CrisCaBeRi" target="_blank" rel="noreferrer">
           <img src={github} alt="" />
         </a>
-        <a href="mailto:cristian.camilo.betancourt.rin@gmail.com?subject=Acabo%20de%20ver%20tu%20portafolio" target="_blank">
+        <a href="mailto:cristian.camilo.betancourt.rin@gmail.com?subject=Acabo%20de%20ver%20tu%20portafolio" target="_blank" rel="noreferrer">
           <img src={gmail} alt="" />
         </a>
-        <a href="https://www.linkedin.com/in/cristian-camilo-betancourt-rincón-909557138" target="_blank">
+        <a href="https://www.linkedin.com/in/cristian-camilo-betancourt-rincón-909557138" target="_blank" rel="noreferrer">
           <img src={linkedin} alt="" />
         </a>
-        <a href="https://t.me/CrisCaBeRi" target="_blank">
+        <a href="https://t.me/CrisCaBeRi" target="_blank" rel="noreferrer">
           <img src={telegram} alt="" />
         </a>
-        <a href="https://wa.me/+573123679015?text=Hola Cristian acabo de ver tu hoja de vida" target="_blank">
+        <a href="https://wa.me/+573123679015?text=Hola Cristian acabo de ver tu hoja de vida" target="_blank" rel="noreferrer">
           <img src={whatsapp} alt="" />
         </a>
 
