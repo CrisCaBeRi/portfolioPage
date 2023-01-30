@@ -9,7 +9,7 @@ import { Skills } from "./Components/Skills/Skills";
 
 function App() {
   return (
-    <>
+    <>    
       <Header/> 
 
       <Presentation/>

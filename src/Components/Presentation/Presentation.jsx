@@ -1,18 +1,19 @@
 import "./Presentation.css";
-import animation from "./Assets/Animación-puma.gif";
+import animation from "./Assets/Animación-puma-resize.gif";
 import avatar from "./Assets/img_avatar.png";
+
+
 
 export const Presentation = () => {
   return (
     <>
-      <img className="Animation" src={animation} alt="" />
-
+      <img className="Animation" src={animation} alt="" />   
+      
       <div className="profile">
         <span> Bievenido a mi portafolio! </span>
 
         <h3>Mi nombre es Cristian Camilo Betancourt Rincon</h3>
-
-        <img src={avatar} alt="" />
+        <img src={avatar} alt="profileimg" />
 
         <p>
           Soy desarrollador web Fullstack , tecnólogo en Producción Multimedia y
@@ -25,13 +26,13 @@ export const Presentation = () => {
         <button className="downloadCv">
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1bNoTP8teo8gr1mEQeNIggJe0zApWcXgu/view?usp=sharing"
+            href="https://drive.google.com/file/d/13HS3BI-NNeu5HDnWt8nBpgnTu2VhLowg/view?usp=share_link"
             rel="noreferrer"
           >
             <h4> Descarga C.V</h4>
           </a>
         </button>
-      </div>
+      </div>      
     </>
   );
 };

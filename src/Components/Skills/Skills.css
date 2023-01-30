@@ -64,3 +64,20 @@
 .insideShow.card-body {
     padding: 0;
 }
+
+
+@media screen and (min-width:678px) {
+    .cards{
+        flex-direction: row;   
+        justify-content: space-around;
+        padding: 0 2vw;
+                     
+    }
+    .card-container {
+        width: 25%;           
+    }
+
+    .card-container h3 {
+        font-size: 2vw;
+    }    
+}

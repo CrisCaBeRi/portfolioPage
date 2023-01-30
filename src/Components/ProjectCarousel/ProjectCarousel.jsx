@@ -1,4 +1,4 @@
-import "./Carousel.css";
+import "./ProjectCarousel.css";
 import {
   Card,
   CardImg,
@@ -14,7 +14,6 @@ import html5 from "../Skills/Assets/card2/html-5.png";
 import css from "../Skills/Assets/card2/css-3.png";
 import react from "../Skills/Assets/card2/react.png";
 import js from "../Skills/Assets/card2/js.png";
-
 import devLogo from "./Assets/Dev.png";
 
 export const ProjectCarosuel = () => {
@@ -27,16 +26,17 @@ export const ProjectCarosuel = () => {
         <img src={devLogo} alt="" />
       </div>
       {/* function inside {} | remember when you are in the return, you will script on render type, so if youre using a function, you have to use the {} to not have sytax problems.  */}
-      {data.map((item, key) => {
-        return (
-          <div className="containerProjects">
+      <div className="containerProjects">
+        {data.map((item, key) => {
+          return (
             <Card className="cardProject" key={key.prItem}>
-              {/* solve problem with img print  */}
-              <CardImg alt="Card image cap" src={item.prImg} />
+
+              <CardImg alt="Card image cap" src={item.prImg} style ={{width:"100%", height:"150px"}} />
+
               <CardBody>
                 <CardTitle tag="h5" style={{ textAlign: "center" }}>
                   {item.prTitle}
-                </CardTitle>            
+                </CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
                   <p>Teconolgias utilizadas:</p>
                   {item.prTechnologies.map((img) => {
@@ -52,7 +52,6 @@ export const ProjectCarosuel = () => {
                     return null;
                   })}
                 </CardSubtitle>
-
                 <CardText className="projectDescription">
                   {item.prDescription}
                 </CardText>
@@ -70,9 +69,9 @@ export const ProjectCarosuel = () => {
                 </div>
               </CardBody>
             </Card>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </>
   );
 };

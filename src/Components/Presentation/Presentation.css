@@ -13,9 +13,9 @@
 }
 
 .Animation {
-  padding-top: 150px;
+  padding-top:70px;
   display: block;
-  width: 100%;
+  width: 100%; 
 }
 
 span {
@@ -69,6 +69,7 @@ span {
   width: 28vw;
   border-radius: 20px;
   background-color: var(--fourthColor);
+  border: none;
 }
 .downloadCv a {
   text-decoration: none;
@@ -80,49 +81,54 @@ span {
   font-size: 3vw;
 }
 
-@media screen and (min-width: 678px) {  
-  span {
+@media screen and (min-width: 678px) { 
+  .Animation {     
+    *padding-top: 75px;
+  }
+
+  span {   
     font-size: 2vw;
   }
 
-  .profile {   
-    *position: fixed; 
+  .profile {    
+    padding-top: 20vh;
+    *padding: 20vh 0;
+    *position: fixed;
     display: grid;
-
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
     grid-column-gap: 10px;
-    grid-row-gap: 10px;        
-  }    
+    grid-row-gap: 10px;
+  }
   .profile span {
     grid-area: 1 / 4 / 2 / 8; /* posinitialrow/posinitialcolumn/posfinalrow/posfinalcolumn */
-    margin: auto;   
+    margin: auto;
   }
 
-  .profile h3 {  
+  .profile h3 {
     grid-area: 2 / 4 / 4 / 11;
     font-size: 1.8vw;
-    margin: auto;   
+    margin: auto;
   }
 
   .profile img {
-    grid-area: 2 / 2 / 10 / 5 ;
-    width: 100%;   
-  }
+    grid-area: 2 / 2 / 10 / 5;
+    width: 100%;
+  } 
 
   .profile p {
-    grid-area: 4 / 5 / 8/ 11 ;
-    font-size: 1.5vw; 
-    margin: auto;   
+    grid-area: 4 / 5 / 8/ 11;
+    font-size: 1.5vw;
+    margin: auto;
   }
 
   .downloadCv {
     grid-area: 9 / 2 / 10 / 5;
-    margin: auto;    
-    width: 50%;        
+    margin: auto;
+    width: 40%;    
   }
   .downloadCv h4 {
     font-size: 1vw;
     padding: 5px;
-  } 
+  }
 }
