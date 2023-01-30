@@ -25,7 +25,7 @@ export default function SkillsDesign(args) {
           onClick={toggle}
           style={{ marginBottom: "1rem" }}
         >
-          Toggle
+          Ver más
         </Button>
 
         <Collapse isOpen={isOpen} {...args}>

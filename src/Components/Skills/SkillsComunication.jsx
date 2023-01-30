@@ -16,7 +16,7 @@ export default function SkillsComunication (args) {
       <img src={imgCard3} alt="" />
       <h3>Comunicaciones</h3>
       <Button color="primary" onClick={toggle} style={{ marginBottom: "1rem" }}>
-        Toggle
+        Ver más
       </Button>
 
       <Collapse isOpen={isOpen} {...args}>

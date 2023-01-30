@@ -22,7 +22,7 @@ export default function SkillsDev(args) {
       <img src={imgCard2} alt="" />
       <h3>Desarrollo</h3>
       <Button color="primary" onClick={toggle} style={{ marginBottom: "1rem" }}>
-        Toggle
+        Ver más
       </Button>
 
       <Collapse isOpen={isOpen} {...args}>
