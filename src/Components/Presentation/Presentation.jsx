@@ -26,7 +26,7 @@ export const Presentation = () => {
         <button className="downloadCv">
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1BNuHy8zPmU5Ju1SS9jmf6sTaUr6M8vhh/view?usp=sharing"
+            href="https://drive.google.com/file/d/1uMZTO0wnV-YX0GtIVqFBRVPsMsgS0v7G/view?usp=sharing"
             rel="noreferrer"
           >
             <h4> Descarga C.V</h4>
