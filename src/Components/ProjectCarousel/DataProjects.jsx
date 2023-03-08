@@ -61,5 +61,16 @@ export const ProjectsData = [
     prTechnologies: ["html", "css", "js", "react"],
     prDeploy: "https://angels-make-up.vercel.app/",
     prRepoitory: "https://github.com/CrisCaBeRi/angelsMakeUp.git",
-  }  
+  }, 
+  {
+    prItem: 8,
+    prImg: "https://drive.google.com/uc?export=view&id=1bT1iNJQdDI9f6-Y7eBa3v9TnsWG5XNRn",
+    prTitle: "Cadencia BTS Design",
+    prDescription: "Caso práctico desarrollado para el curso de UX design de google",
+    prTechnologies: ["Figma", "Illustrator"],
+    prDeploy: "https://www.figma.com/file/Kxudfg0nsJLGLdDK22Gk75/Google-UX-Mockup?node-id=46%3A17&t=HeProhuefWcTXQ41-1",
+    prRepoitory: "https://drive.google.com/file/d/1eTwg28fpn8-uHJ69C48pEHr5mFTaKFWA/view?usp=sharing",
+  } 
+  
+  
 ];

@@ -16,7 +16,7 @@ export const Presentation = () => {
         <img src={avatar} alt="profileimg" />
 
         <p>
-          Soy desarrollador web Fullstack , tecnólogo en Producción Multimedia y
+          Soy desarrollador web Fullstack ,UX/UI Designer, Tecnólogo en Producción Multimedia y
           Comunicador Social con enfásis en desarrollo audiovisual. Tengo
           conocimientos en el campo del diseño gráfico, animación y diseño web
           tanto Frontend como Backend, bases de datos y algunas librerías de

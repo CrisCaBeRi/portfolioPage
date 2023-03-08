@@ -15,6 +15,8 @@ import css from "../Skills/Assets/card2/css-3.png";
 import react from "../Skills/Assets/card2/react.png";
 import js from "../Skills/Assets/card2/js.png";
 import devLogo from "./Assets/Dev.png";
+import figma from "../Skills/Assets/card1/figma.png";
+import illustrator from "../Skills/Assets/card1/adobe-illustrator.png";
 
 export const ProjectCarosuel = () => {
   const data = ProjectsData;
@@ -30,9 +32,7 @@ export const ProjectCarosuel = () => {
         {data.map((item, key) => {
           return (
             <Card className="cardProject" key={key.prItem}>
-
               <CardImg alt="Card image cap" src={item.prImg} style ={{width:"100%", height:"150px"}} />
-
               <CardBody>
                 <CardTitle tag="h5" style={{ textAlign: "center" }}>
                   {item.prTitle}
@@ -48,7 +48,11 @@ export const ProjectCarosuel = () => {
                       return <img src={react} alt="" />;
                     } else if (img === "js") {
                       return <img src={js} alt="" />;
-                    }
+                    } else if (img ==="Figma"){
+                      return <img src={figma} alt="" />;
+                    }else if (img ==="Illustrator"){
+                      return <img src={illustrator} alt="" />;
+                    }          
                     return null;
                   })}
                 </CardSubtitle>
