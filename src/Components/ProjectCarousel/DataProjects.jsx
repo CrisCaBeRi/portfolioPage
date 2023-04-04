@@ -70,7 +70,29 @@ export const ProjectsData = [
     prTechnologies: ["Figma", "Illustrator"],
     prDeploy: "https://www.figma.com/file/Kxudfg0nsJLGLdDK22Gk75/Google-UX-Mockup?node-id=46%3A17&t=HeProhuefWcTXQ41-1",
     prRepoitory: "https://drive.google.com/file/d/1eTwg28fpn8-uHJ69C48pEHr5mFTaKFWA/view?usp=sharing",
-  } 
+  }, 
+  {
+    prItem: 9,
+    prImg: "https://drive.google.com/uc?export=view&id=1AprsIEAVxyIVXd5ksY24i19GQtoDq9pe",
+    prTitle: "Cadencia BTS Design for mechanics",
+    prDescription: "Caso práctico desarrollado para el curso de UX design de google",
+    prTechnologies: ["Adobe XD", "Illustrator"],
+    prDeploy: "https://xd.adobe.com/view/8662f3e8-6ca2-4c48-ae0a-4e42bbe8acee-d331/",
+    prRepoitory: "https://drive.google.com/file/d/1Nd96MggOsJbgUVy0uUmWiTeOKQZJawvU/view?usp=sharing",
+  }, 
+  {
+    prItem: 10,
+    prImg: " https://drive.google.com/uc?export=view&id=1TTeC-iXcUyez0d4OVpyfCrDfV9QQwdFo",
+    prTitle: "LegalApp Design",
+    prDescription: "Caso práctico desarrollado para el curso de UX design de google implementando diseño de aplicación dedicada y web responsive",
+    prTechnologies: ["Figma", "Illustrator"],
+    prDeploy: "https://www.figma.com/file/GJ1yJkZm1aYNVWVLkDn0hR/GOOGLE-UX-LwFi-Prototype-LegislAPP?node-id=0%3A1&t=6BbeX6Hc3ZpNMhzO-1",
+    prRepoitory: "https://drive.google.com/file/d/1XTBrpSANAvwRX71uHA2V0vT_D582mAZ1/view?usp=share_link",
+  }, 
+
+
+
+
   
   
 ];
