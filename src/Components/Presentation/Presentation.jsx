@@ -10,6 +10,7 @@ export const Presentation = () => {
       <img className="Animation" src={animation} alt="" />
 
       <div className="profile" id="section-1">
+        {/* //TODO: FIX THE VELOCITY OF TYPE AND THE LONG OF CHARACTERS TYPE */}
         <span> Bievenido a mi portafolio! </span>
 
         <h3>
@@ -34,9 +35,10 @@ export const Presentation = () => {
           whileHover={{ scale: 1.1 }}
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
+          {/* //TODO:FIX THE CV */}
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1uMZTO0wnV-YX0GtIVqFBRVPsMsgS0v7G/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qau4U2N8NGcw738Au105UfyFXi1mfbwz/view?usp=sharing"
             rel="noreferrer"
           >
             <h4> Descarga C.V</h4>

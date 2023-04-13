@@ -5,6 +5,9 @@ import linkedin from "./Assets/linkedin.png";
 import telegram from "./Assets/telegram.png";
 import whatsapp from "./Assets/whatsapp.png";
 
+
+//TODO: FIX THE SIZE OF IMAGES ON DESKTOP VERSION 
+//TODO: ADD ANIMATION FOR THE IMAGES
 export default function Contact() {
   return (
     <>

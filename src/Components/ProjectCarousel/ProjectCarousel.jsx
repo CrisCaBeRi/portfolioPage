@@ -19,6 +19,10 @@ import figma from "../Skills/Assets/card1/figma.png";
 import illustrator from "../Skills/Assets/card1/adobe-illustrator.png";
 import xd from "../Skills/Assets/card1/xd.png";
 
+//TODO: GET ALL PROJECTS FROM GITLAB AND FORKS  
+//TODO: TO A BUTTON TO FILTER THE UX PROJECTS & DEV
+//TODO: ANIMATIONS FOR THE SELECTED PROJECTS
+//TODO: CHANGE COLOR AND UNDERLINE OF THE LINKS 
 export const ProjectCarosuel = () => {
   const data = ProjectsData;
 

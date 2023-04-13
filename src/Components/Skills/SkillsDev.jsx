@@ -32,6 +32,7 @@ export default function SkillsDev(args) {
               La programación me ha permitido ampliar el alcance de mi creatividad y adentrarme al maravillos mundo de la tecnología.
             </p>
             <ul>
+              {/* //TODO: ADD NEW IMAGES OF KNOWLEDGES */}
               <li>Lenguajes:</li>
               <li>"HTML"</li>
               <li>"CSS"</li>
@@ -52,6 +53,8 @@ export default function SkillsDev(args) {
               <li>MongoDB</li>
               <li>Firebase</li>
             </ul>
+
+            {/* //TODO: GET ANIMATIONS & LINKS FOR THE IMAGES */}
             <div className="skillsIcons">
               <img src={html} alt="" />
               <img src={css} alt="" />
