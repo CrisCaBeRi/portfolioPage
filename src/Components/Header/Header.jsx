@@ -6,15 +6,12 @@ export const Header = () => {
   const [menu, setMenu] = useState(false);
   const toggleMenu = () => {
     setMenu(!menu);
-  };
+  };  
 
   return (
     <>
       <header className="header">
-        <img className="logo" src={Logo} alt="Logo Header" />
-
-        {/* use of the imported image */}
-
+        <img className="logo" src={Logo} alt="Logo Header" />        
         <button onClick={toggleMenu} className="Header-button">
           <svg
             className="Header-nav-svg"
@@ -56,7 +53,6 @@ export const Header = () => {
                 <p> Contacto </p>
               </a>
             </li>
-            
           </ul>
         </nav>
       </header>

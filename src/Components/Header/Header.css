@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+  --mainFont:'Bebas Neue', cursive;
+  --primaryColor: #0a121e;
+  --secondaryColor: #132537;
+  --thirdColor: #45646b;
+  --fourthColor: #91b4b9;
+  --animationColor: #21252c;
+}
 .header {
-  width: auto;
-  padding: 20px 35px;
-  padding-right: 70px;
+  padding: 20px 35px;  
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;  
   flex-flow: row wrap; /* flex hacia abajo cuando esta en mobil */
   align-items: center;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 1;
   background-color: rgb(255, 255, 255);
 }
 .logo {
-  width: 12vw;
+  width: 10vw;
 }
 .Header-button {
   display: none;
@@ -26,7 +34,7 @@
   color: var(--thirdColor);
 }
 .Header-nav {
-  width: 60%;
+  width: 35%;
 }
 .Header-ul {
   list-style: none;
@@ -37,14 +45,24 @@
   padding: 0;
 }
 .Header-nav a {
-  text-decoration: none;
-  color: black;
+  text-decoration: none;   
 }
 .Header-li p {
-  margin: 0;
-  font-size: 18px;
+  color: var(--primaryColor);
+  font-family: var(--mainFont);
+  font-size: 20px; 
+  margin: 0;  
 }
-/* mobile */
+.Header-li p:hover {  
+  font-size: 30px;
+  color: var(--fourthColor);   
+}
+
+@media screen and (min-width:678px) and (max-width:930px) {
+  .Header-nav {
+    width: 50%;    
+  }  
+}
 @media screen and (max-width: 678px) {
   .header {
     padding: 20px 40px;

@@ -23,8 +23,7 @@ export default function SkillsComunication (args) {
         <Card className="insideShow">
           <CardBody className="insideShow">
           <p>
-                La comunicación resulta fundamental en cada proceso, por eso, me
-                encanta transmitir a través de cualquier producto.
+                La comunicación resulta fundamental en todos los procesos de la vida, por ende, me encanta transmitir a través de productos creativos.
               </p>
               <ul>
                 <li>Herramientas:</li>

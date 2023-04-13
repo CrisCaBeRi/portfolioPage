@@ -29,14 +29,17 @@ export default function SkillsDev(args) {
         <Card className="insideShow">
           <CardBody className="insideShow">
             <p>
-              La programación me ha permitido ampliar el alcance de mis
-              conocimientos.
+              La programación me ha permitido ampliar el alcance de mi creatividad y adentrarme al maravillos mundo de la tecnología.
             </p>
             <ul>
               <li>Lenguajes:</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
+              <li>"HTML"</li>
+              <li>"CSS"</li>
+              <li>JavaScript</li> 
+              <li>SQL</li> 
+              <li>Java (Básico)</li>
+              <li>Python (Básico)</li>
+              <li>Flutter (Básico)</li>           
             </ul>
             <ul>
               <li>Herramientas de desarrollo:</li>
@@ -45,6 +48,9 @@ export default function SkillsDev(args) {
               <li>Github</li>
               <li>Gitlab</li>
               <li>React</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Firebase</li>
             </ul>
             <div className="skillsIcons">
               <img src={html} alt="" />
