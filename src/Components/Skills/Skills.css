@@ -62,6 +62,10 @@
 .skillsIcons img {
     width: 15%;
     margin: 10px 5px;
+    transition: 0.5s all;
+}
+.skillsIcons img:hover{
+    transform: scale(1.2);
 }
 .card {
     border: none;

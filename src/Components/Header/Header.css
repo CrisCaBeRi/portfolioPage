@@ -51,7 +51,8 @@
   color: var(--primaryColor);
   font-family: var(--mainFont);
   font-size: 20px; 
-  margin: 0;  
+  margin: 0; 
+  transition: 0.5s; 
 }
 .Header-li p:hover {  
   font-size: 30px;

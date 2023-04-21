@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Collapse, Button, CardBody, Card } from "reactstrap";
-
-//Import images to use in card 1
 import imgCard1 from "./Assets/card1/Design_img.png";
 import figma from "./Assets/card1/figma.png";
 import character from "./Assets/card1/character-animator.png";
@@ -10,12 +8,10 @@ import illustrator from "./Assets/card1/adobe-illustrator.png";
 import animate from "./Assets/card1/animate.png";
 import blender from "./Assets/card1/Blender.png";
 import after from "./Assets/card1/after-effects.png";
-
+import xd from "./Assets/card1/xd.png";
 export default function SkillsDesign(args) {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggle = () => setIsOpen(!isOpen);
-
   return (    
       <div className="card-container">
         <img src={imgCard1} alt="" />
@@ -27,7 +23,6 @@ export default function SkillsDesign(args) {
         >
           Ver más
         </Button>
-
         <Collapse isOpen={isOpen} {...args}>
           <Card className="insideShow">
             <CardBody className="insideShow">
@@ -44,6 +39,7 @@ export default function SkillsDesign(args) {
                 <li>After Effects</li>
                 <li>Character Animator</li>
                 <li>Blender</li>
+                <li>Adobe XD</li>
               </ul>
               <div className="skillsIcons">
                 <img src={figma} alt="" />
@@ -53,6 +49,7 @@ export default function SkillsDesign(args) {
                 <img src={after} alt="" />
                 <img src={character} alt="" />
                 <img src={blender} alt="" />
+                <img src={xd} alt="" />
               </div>
             </CardBody>
           </Card>

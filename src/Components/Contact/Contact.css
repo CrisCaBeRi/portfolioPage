@@ -10,39 +10,42 @@
   --fourthColor: #91b4b9;
   --animationColor: #21252c;
 }
-
 .titleContact {
   display: flex;
   justify-content: center;
 }
-
 .titleContact h1 {
-  margin-top: 50px;
+  margin-top: 50px;  
   top: 0;
-  background-color: var(--thirdColor);
-  border-radius: 50px;
-  padding: 10px;
+  background-color: var(--animationColor);
+  border-radius: 100px;
+  padding: 10px 40px;
 }
 .backgroundContact {
   margin-top: -35px;
   padding: 50px 0;
   background-color: var(--animationColor);
-  display: flex;
+  display: flex;  
   justify-content: center;
   align-items: center;
 }
 .backgroundContact img {
-  width: 25px;
+  width: 35px;
   margin: 5px 10px;
+  transition: 0.5s;
 }
-
-.backgroundContact span {
-  width: 20px;
-  border-color: aqua;
+.backgroundContact img:hover{
+  width: 45px;
 }
-
 hr {
   height: 5px;
-  width: 30%;
-  background-color: white;
+  border-radius: 100px;
+  width: 100%;
+  background-color: var(--fourthColor);
+}
+#hr1 {
+  margin-right: 50px;
+}
+#hr2 {
+  margin-left: 50px;
 }

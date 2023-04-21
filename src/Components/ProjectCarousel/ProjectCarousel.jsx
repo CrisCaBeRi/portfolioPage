@@ -7,9 +7,7 @@ import {
   CardTitle,
   CardText,
 } from "reactstrap";
-
 import { ProjectsData } from "./DataProjects";
-
 import html5 from "../Skills/Assets/card2/html-5.png";
 import css from "../Skills/Assets/card2/css-3.png";
 import react from "../Skills/Assets/card2/react.png";
@@ -18,14 +16,12 @@ import devLogo from "./Assets/Dev.png";
 import figma from "../Skills/Assets/card1/figma.png";
 import illustrator from "../Skills/Assets/card1/adobe-illustrator.png";
 import xd from "../Skills/Assets/card1/xd.png";
-
-//TODO: GET ALL PROJECTS FROM GITLAB AND FORKS  
-//TODO: TO A BUTTON TO FILTER THE UX PROJECTS & DEV
-//TODO: ANIMATIONS FOR THE SELECTED PROJECTS
-//TODO: CHANGE COLOR AND UNDERLINE OF THE LINKS 
+import node from"../Skills/Assets/card2/node.png";
+import mongo from "../Skills/Assets/card2/mongo.png";
+import dart from "../Skills/Assets/card2/Dart.png"; 
+import firebase from "../Skills/Assets/card2/firebase.jpg"; 
 export const ProjectCarosuel = () => {
   const data = ProjectsData;
-
   return (
     <>
       <div className="backgroundTr" id="section-3">
@@ -47,7 +43,7 @@ export const ProjectCarosuel = () => {
                   {item.prTitle}
                 </CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  <p>Teconolgias utilizadas:</p>
+                  <p>Teconolgías utilizadas:</p>
                   {item.prTechnologies.map((img) => {
                     if (img === "html") {
                       return <img src={html5} alt="" />;
@@ -63,8 +59,16 @@ export const ProjectCarosuel = () => {
                       return <img src={illustrator} alt="" />;
                     } else if (img === "Adobe XD") {
                       return <img src={xd} alt="" />;
-                    }
-                    return null;
+                    } else if (img === "Node Js"){
+                      return <img src={node} alt="" />;
+                    } else if (img === "Mongo DB"){
+                      return <img src={mongo} alt="" />;
+                    } else if (img === "Dart"){
+                      return <img src={dart} alt="" />;
+                    }else if (img === "Firebase"){
+                      return <img src={firebase} alt="" />;
+                    }         
+                    return null; 
                   })}
                 </CardSubtitle>
                 <CardText className="projectDescription">

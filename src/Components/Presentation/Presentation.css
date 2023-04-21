@@ -25,8 +25,8 @@ span {
   font-family: var(--mainFont);  
   white-space: nowrap;
   border-right: 4px solid;
-  width: 28ch;
-  animation: typing 5s steps(28), blink 0.5s infinite step-end alternate;
+  width: 24ch;
+  animation: typing 13s steps(28), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
 @keyframes typing {

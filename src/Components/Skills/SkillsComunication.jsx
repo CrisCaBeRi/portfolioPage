@@ -1,16 +1,11 @@
 import React, { useState } from "react";
 import { Collapse, Button, CardBody, Card } from "reactstrap";
-
-//Import images to use in card 1
 import imgCard3 from "./Assets/card3/Comunications_img.png";
 import audition from "./Assets/card3/audition.png";
 import premiere from "./Assets/card3/premiere.png";
-
-export default function SkillsComunication (args) {
+export default function SkillsComunication(args) {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggle = () => setIsOpen(!isOpen);
-
   return (
     <div className="card-container">
       <img src={imgCard3} alt="" />
@@ -22,25 +17,25 @@ export default function SkillsComunication (args) {
       <Collapse isOpen={isOpen} {...args}>
         <Card className="insideShow">
           <CardBody className="insideShow">
-          <p>
-                La comunicación resulta fundamental en todos los procesos de la vida, por ende, me encanta transmitir a través de productos creativos.
-              </p>
-              <ul>
-                <li>Herramientas:</li>
-                <li>Premiere PRO</li>
-                <li>Adobe Audition </li>
-              </ul>
-              <ul>
-                <li>Conocimientos: </li>
-                <li>Implementación de estrategias de comunicación</li>
-                <li>Community Manager</li>
-                <li>Comunicación de investigación</li>
-                <li>Desarrollo de piezas audiovisuales</li>
-              </ul>
-              <div className="skillsIcons">
-                <img src={audition} alt="" />
-                <img src={premiere} alt="" />
-              </div>
+            <p>              
+              La comunicación es la clave del éxito personal y profesional, por ende, me gusta transmitir mis conocimientos y aprendizajes a través de productos creativos.
+            </p>
+            <ul>
+              <li>Herramientas utilizadas:</li>
+              <li>Premiere PRO</li>
+              <li>Adobe Audition </li>
+            </ul>
+            <ul>
+              <li>Conocimientos & experiencia: </li>
+              <li>Implementación de estrategias de comunicación</li>
+              <li>Community Manager</li>
+              <li>Comunicación de investigación</li>
+              <li>Desarrollo de piezas audiovisuales</li>
+            </ul>
+            <div className="skillsIcons">
+              <img src={audition} alt="" />
+              <img src={premiere} alt="" />
+            </div>
           </CardBody>
         </Card>
       </Collapse>
