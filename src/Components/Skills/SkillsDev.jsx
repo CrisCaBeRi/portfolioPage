@@ -11,12 +11,17 @@ import react from "./Assets/card2/react.png";
 import gitlab from "./Assets/card2/gitlab.png";
 import java from "./Assets/card2/java.png";
 import python from "./Assets/card2/piton.png";
-import dart from "./Assets/card2/Dart.png"; 
-import node from "./Assets/card2/node.png"; 
+import dart from "./Assets/card2/Dart.png";
+import node from "./Assets/card2/node.png";
 import mysql from "./Assets/card2/mysql.png";
 import mongo from "./Assets/card2/mongo.png";
 import sql from "./Assets/card2/database.png";
 import firebase from "./Assets/card2/firebase.jpg";
+import sass from "./Assets/card2/sass.webp";
+import bitbucket from "./Assets/card2/bitbucket.webp";
+import express from "./Assets/card2/express.webp";
+import spring from "./Assets/card2/spring.webp";
+
 export default function SkillsDev(args) {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
@@ -38,6 +43,7 @@ export default function SkillsDev(args) {
               <li>Lenguajes:</li>
               <li>"HTML"</li>
               <li>"CSS"</li>
+              <li>"SASS"</li>
               <li>JavaScript</li>
               <li>SQL</li>
               <li>Java (Básico)</li>
@@ -50,11 +56,14 @@ export default function SkillsDev(args) {
               <li>Bootstrap</li>
               <li>Github</li>
               <li>Gitlab</li>
+              <li>BitBucket</li>
               <li>React</li>
               <li>MySQL</li>
               <li>MongoDB</li>
               <li>Firebase</li>
               <li>Node JS</li>
+              <li>Lit Element</li>
+              <li>Express JS</li>
             </ul>
             <div className="skillsIcons">
               <img src={html} alt="" />
@@ -68,11 +77,15 @@ export default function SkillsDev(args) {
               <img src={bootstrap} alt="" />
               <img src={github} alt="" />
               <img src={gitlab} alt="" />
+              <img src={bitbucket} alt="" />
               <img src={react} alt="" />
               <img src={mysql} alt="" />
               <img src={mongo} alt="" />
               <img src={node} alt="" />
               <img src={firebase} alt="" />
+              <img src={sass} alt="" />
+              <img src={express} alt="" />
+              <img src={spring} alt="" />
             </div>
           </CardBody>
         </Card>

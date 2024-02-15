@@ -1,15 +1,14 @@
 import "./Presentation.css";
 import animation from "./Assets/Animación-puma-resize.gif";
 import avatar from "./Assets/img_avatar.png";
-
 import { motion } from "framer-motion";
 
 export const Presentation = () => {
   return (
     <>
       <img className="Animation" src={animation} alt="" />
-      <div className="profile" id="section-1">        
-        <span> Bievenido a mi portafolio! </span>
+      <div className="profile" id="section-1">
+        <span> Bienvenido a mi portafolio! </span>
         <h3>
           Mi nombre es <strong>Cristian Camilo Betancourt Rincon</strong>{" "}
         </h3>
@@ -29,16 +28,16 @@ export const Presentation = () => {
           className="downloadCv"
           whileHover={{ scale: 1.1 }}
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
-        >          
+        >
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1iiPPUULAjti9G_JcrpEY1BAiBTfwVuOx/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CM7UfdfWDDvWlq8OhLvLa7EHGmLJuNCH/view?usp=sharing"
             rel="noreferrer"
           >
             <h4> Descarga C.V</h4>
           </a>
-        </motion.button>              
-      </div> 
+        </motion.button>
+      </div>
     </>
   );
 };

@@ -16,10 +16,16 @@ import devLogo from "./Assets/Dev.png";
 import figma from "../Skills/Assets/card1/figma.png";
 import illustrator from "../Skills/Assets/card1/adobe-illustrator.png";
 import xd from "../Skills/Assets/card1/xd.png";
-import node from"../Skills/Assets/card2/node.png";
+import node from "../Skills/Assets/card2/node.png";
 import mongo from "../Skills/Assets/card2/mongo.png";
-import dart from "../Skills/Assets/card2/Dart.png"; 
-import firebase from "../Skills/Assets/card2/firebase.jpg"; 
+import dart from "../Skills/Assets/card2/Dart.png";
+import firebase from "../Skills/Assets/card2/firebase.jpg";
+import sass from "../Skills/Assets/card2/sass.webp"
+import express from "../Skills/Assets/card2/express.webp"
+import java from "../Skills/Assets/card2/java.png"
+import spring from "../Skills/Assets/card2/spring.webp"
+import { projectImages } from "./ProjectImages";
+
 export const ProjectCarosuel = () => {
   const data = ProjectsData;
   return (
@@ -28,14 +34,13 @@ export const ProjectCarosuel = () => {
         <h1>Trabajos recientes</h1>
         <img src={devLogo} alt="" />
       </div>
-      {/* function inside {} | remember when you are in the return, you will script on render type, so if youre using a function, you have to use the {} to not have sytax problems.  */}
       <div className="containerProjects">
         {data.map((item, key) => {
           return (
             <Card className="cardProject" key={key.prItem}>
               <CardImg
                 alt="Card image cap"
-                src={item.prImg}
+                src={projectImages(item.prImg)}
                 style={{ width: "100%", height: "150px" }}
               />
               <CardBody>
@@ -45,30 +50,40 @@ export const ProjectCarosuel = () => {
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
                   <p>Teconolgías utilizadas:</p>
                   {item.prTechnologies.map((img) => {
-                    if (img === "html") {
-                      return <img src={html5} alt="" />;
-                    } else if (img === "css") {
-                      return <img src={css} alt="" />;
-                    } else if (img === "react") {
-                      return <img src={react} alt="" />;
-                    } else if (img === "js") {
-                      return <img src={js} alt="" />;
-                    } else if (img === "Figma") {
-                      return <img src={figma} alt="" />;
-                    } else if (img === "Illustrator") {
-                      return <img src={illustrator} alt="" />;
-                    } else if (img === "Adobe XD") {
-                      return <img src={xd} alt="" />;
-                    } else if (img === "Node Js"){
-                      return <img src={node} alt="" />;
-                    } else if (img === "Mongo DB"){
-                      return <img src={mongo} alt="" />;
-                    } else if (img === "Dart"){
-                      return <img src={dart} alt="" />;
-                    }else if (img === "Firebase"){
-                      return <img src={firebase} alt="" />;
-                    }         
-                    return null; 
+                    switch (img) {
+                      case "html":
+                        return <img src={html5} alt="" />;
+                      case "css":
+                        return <img src={css} alt="" />;
+                      case "react":
+                        return <img src={react} alt="" />;
+                      case "js":
+                        return <img src={js} alt="" />;
+                      case "Figma":
+                        return <img src={figma} alt="" />;
+                      case "Illustrator":
+                        return <img src={illustrator} alt="" />;
+                      case "Adobe XD":
+                        return <img src={xd} alt="" />;
+                      case "Node Js":
+                        return <img src={node} alt="" />;
+                      case "Mongo DB":
+                        return <img src={mongo} alt="" />;
+                      case "Dart":
+                        return <img src={dart} alt="" />;
+                      case "Firebase":
+                        return <img src={firebase} alt="" />;
+                      case "sass":
+                        return <img src={sass} alt="" />;
+                      case "express":
+                        return <img src={express} alt="" />;
+                      case "java":
+                        return <img src={java} alt="" />;
+                      case "spring":
+                        return <img src={spring} alt="" />;
+                      default:
+                        return null;
+                    }
                   })}
                 </CardSubtitle>
                 <CardText className="projectDescription">
